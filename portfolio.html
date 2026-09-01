@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aviral Mishra | Personal Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:30px;
+    border-radius:10px 10px 0 0;
+}
+
+.profile{
+    background:white;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    padding:30px;
+}
+
+.profile img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #0d47a1;
+}
+
+.info{
+    max-width:500px;
+}
+
+.info h2{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.info p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+section{
+    background:white;
+    margin-top:20px;
+    padding:25px;
+    border-radius:10px;
+}
+
+h3{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+li{
+    margin:10px 0;
+}
+
+a{
+    color:#0d47a1;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:#d32f2f;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    background:#0d47a1;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1565c0;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+    border-radius:0 0 10px 10px;
+}
+
+/* Skills */
+
+.skill{
+    margin-bottom:20px;
+}
+
+.skill p{
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.bar{
+    width:100%;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.fill{
+    height:25px;
+    line-height:25px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+}
+
+.html{
+    width:90%;
+    background:#e44d26;
+}
+
+.css{
+    width:85%;
+    background:#2965f1;
+}
+
+.js{
+    width:75%;
+    background:#f7df1e;
+    color:black;
+}
+
+.python{
+    width:80%;
+    background:#3776ab;
+}
+
+.c{
+    width:70%;
+    background:#5c6bc0;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Aviral Mishra</h1>
+    <p>Personal Portfolio</p>
+</header>
+
+<div class="profile">
+
+    <img src="https://png.pngtree.com/png-clipart/20240504/original/pngtree-group-of-athletes-from-different-kinds-of-sports-png-image_15009162.png" alt="My Photo">
+
+    <div class="info">
+        <h2>Personal Information</h2>
+
+        <p><strong>Name:</strong> Aviral Mishra</p>
+        <p><strong>Age:</strong> 19</p>
+        <p><strong>Email:</strong> aviralmishra448@gmail.com</p>
+        <p><strong>Phone:</strong> +91 8279726758</p>
+        <p><strong>Location:</strong> Uttar Pradesh, India</p>
+
+        <button onclick="welcome()">Say Hello</button>
+
+    </div>
+
+</div>
+
+<section>
+
+<h3>About Me</h3>
+
+<p>
+Hello! I am passionate about web development and programming.
+I enjoy creating websites, solving coding problems, and learning new technologies.
+My goal is to become a successful software developer.
+</p>
+
+</section>
+
+<section>
+
+<h3>My Skills</h3>
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar">
+<div class="fill html"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>CSS</p>
+<div class="bar">
+<div class="fill css"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar">
+<div class="fill js"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>Python</p>
+<div class="bar">
+<div class="fill python"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>C++ Programming Language</p>
+<div class="bar">
+<div class="fill c"></div>
+</div>
+</div>
+
+</section>
+
+<section>
+
+<h3>Favourite Books</h3>
+
+<ul>
+<li>Atomic Habits – James Clear</li>
+<li>The Alchemist – Paulo Coelho</li>
+<li>Rich Dad Poor Dad – Robert Kiyosaki</li>
+<li>Think and Grow Rich – Napoleon Hill</li>
+<li>Clean Code – Robert C. Martin</li>
+</ul>
+
+</section>
+
+<section>
+
+<h3>Useful Links</h3>
+
+<ul>
+<li>
+<a href="https://github.com/aviralmishra0239" target="_blank">
+GitHub Profile
+</a>
+</li>
+
+<li>
+<a href="https://www.linkedin.com/in/aviral-mishra-33b65537b/" target="_blank">
+LinkedIn Profile
+</a>
+</li>
+
+<li>
+<a href="https://www.codechef.com/users/cse16_0239" target="_blank">
+CodeChef Profile
+</a>
+</li>
+
+<li>
+<a href="https://www.netflix.com/browse" target="_blank">
+My Favorite Website (Netflix)
+</a>
+</li>
+
+</ul>
+
+</section>
+
+<footer>
+<p>© 2026 Prepared By Aviral Mishra | Personal Portfolio</p>
+</footer>
+
+</div>
+
+<script>
+function welcome(){
+    alert("Welcome! Thanks for visiting my portfolio.");
+}
+</script>
+
+</body>
+</html>
